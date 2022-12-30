@@ -1,0 +1,38 @@
+body, html {
+    height:100%;
+    overflow: hidden;
+    margin:0;
+    font-family: 'Heebo';
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.bg-image{
+    background-image: url(_E1I2279.jpg);
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter:blur(3px);
+}
+
+.content{
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-weight: bold;
+    border-radius:60px;
+    padding: 30px 100px;
+    position:absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* min-width: 100% */
+}
+
+.content div {
+    display: inline-block;
+    padding: 0 10px;
+}
